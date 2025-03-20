@@ -3,8 +3,6 @@ backend:
   repo: ianlp/mbot
   branch: main
   auth:
-    client_id: Ov23li6HraJO77EqHu3B
-    client_secret: 3e38bef26064ffe10dd299a71e9443c8f08c8c1d
 
 media_folder: "uploads"
 public_folder: "/uploads"
