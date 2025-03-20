@@ -1,7 +1,9 @@
 backend:
   name: github
-  repo: /ianlp/thursdaycreative.agency/
+  repo: ianlp/mbot
   branch: main
+
+local_backend: true
 
 media_folder: "mbot/images/uploads"
 public_folder: "/mbot/images/uploads"

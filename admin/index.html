@@ -2,13 +2,21 @@
 <html>
 
 <head>
-    <title>Event Manager</title>
-    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
+    <meta charset="UTF-8">
+    <title>Admin</title>
 </head>
 
 <body>
+    <!-- Load Decap CMS -->
+    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
+
     <script>
-        CMS.init();
+        // Initialize CMS
+        if (typeof CMS !== "undefined") {
+            CMS.init();
+        } else {
+            console.error("CMS is not defined. Check if the Netlify CMS script is loading correctly.");
+        }
     </script>
 </body>
 
