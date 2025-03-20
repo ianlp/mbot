@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: ianlp/mbot # Make sure this is your public repo
+  repo: ianlp/mbot
   branch: main
-  site_domain: ianlp.github.io
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+  auth:
+    client_id: Ov23li6HraJO77EqHu3B
+    client_secret: 3e38bef26064ffe10dd299a71e9443c8f08c8c1d
 
 media_folder: "uploads"
 public_folder: "/uploads"
