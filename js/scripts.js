@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch(
-    "https://raw.githubusercontent.com/ianlp/thursdaycreative.agency/main/public/mbot/events.json"
-  )
+  fetch("https://raw.githubusercontent.com/ianlp/mbot/main/events.json")
     .then((response) => response.json())
     .then((events) => {
       const eventsList = document.querySelector(".events__list");
